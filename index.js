@@ -52,8 +52,8 @@ let doc = window.document;
 
         div.innerHTML = (
         "<ul><li>" + "<i>Имя:</i>" + " " + narry[0] + "</li>" + " " +
-        "<li>" + "<i>E-mail:</i>" + " " + narry[1] + "</li>" + " " +
-        "<li>" + "<i>Телефон:</i>" + " " + narry[2] + "</li>" +
+        "<li>" + "<i>E-mail:</i>" + " " + narry[2] + "</li>" + " " +
+        "<li>" + "<i>Телефон:</i>" + " " + narry[1] + "</li>" +
         "<li><button id = 'delete' onclick = dell(" + arrKey + ")>Delele</button>" +
         "<button id ='edit' onclick =edit(" + arrKey + ")>Edit</button></li></ul>");
 
