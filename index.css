@@ -1,0 +1,66 @@
+.fa-plus-square{
+    width: 20px;
+    height: 20px;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+#newCont{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: none;
+}
+.tel {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#search{
+    border-radius:10px
+}
+.mail{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+i{
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+}
+ul{
+    width: 40%;
+    border-bottom: solid 2px #640002;
+    border-radius:10px ;
+    margin:3px;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+    color: #050565;
+
+}
+button{
+    margin-left:5px ;
+    padding: 5px 10px 5px 10px;
+    background-color: #232323;
+    color: aliceblue;
+    border: solid 2px #640002;
+    border-radius:10px;
+}
+input{
+    background-color: #e3e3e3;
+    opacity: .6;
+    height: 20px;
+    margin-top :10px;
+    border:none;
+    border-bottom: solid 3px #440003;
+    border-radius: 10px;
+}
+#control{
+    margin-top: 10px;
+
+}
