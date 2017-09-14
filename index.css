@@ -5,6 +5,13 @@
 body{
     background-color: #f7f7f7;
 }
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
 
 #newCont{
     margin-top: 40px;
@@ -17,7 +24,10 @@ body{
 }
 
 #search{
-    border-radius:10px
+    border-radius:10px;
+    width: 200px;
+    height: 25px;
+
 }
 .mail{
     margin-right: 10px;
@@ -25,12 +35,12 @@ body{
 }
 
 i{
+    font-size: 20px;
     font-style: normal;
     color: black;
     font-weight: bold;
 }
 ul{
-    width: 40%;
     border-bottom: solid 2px #640002;
     border-radius:10px ;
     margin:3px;
@@ -48,19 +58,32 @@ button{
     padding: 5px 10px 5px 10px;
     background-color: #232323;
     color: aliceblue;
-    border: solid 2px #640002;
+    border: solid 3px #580003;
     border-radius:10px;
 }
 input{
     background-color: #e3e3e3;
-    opacity: .6;
-    height: 20px;
+    height: 18px;
     margin-top :10px;
     border:none;
-    border-bottom: solid 3px #440003;
+    border-bottom: solid 3px #580003;
     border-radius: 10px;
 }
-#control{
-    margin-top: 10px;
+#control1{
 
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 360px;
+    background-color: #bcbcbc;
+    border-radius: 10px;
+}
+#left{
+    float: left;
+    margin: 6px 25px 6px 25px;
+}
+.positBut button{
+    background-color: #888888;
+    border: solid 2px #0c0c0c;
+    color: #090909;
 }

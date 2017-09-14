@@ -4,6 +4,6 @@
 `https://cepnemo.github.io/book/`
 
 ### Sites screens 
-![Alt text](shot/home.png?raw=true "Optional Title")
-
-![Alt text](shot/addC.png?raw=true "Optional Title")
+![Alt text](shot/Screen.png?raw=true "Optional Title")
+![Alt text](shot/Screen1.png?raw=true "Optional Title")
+![Alt text](shot/Screen2.png?raw=true "Optional Title")
