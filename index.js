@@ -92,7 +92,7 @@ let nArr =[];
         tdList.appendChild(div);
 
 
-<<<<<<< HEAD
+
          nArr = str.split(',');
 
 
@@ -102,14 +102,12 @@ let nArr =[];
            // div6.innerHTML += ("<h5>"+ str +"</h5>");
            // editB.innerHTML =();
            // but.innerHTML = ("<button onclick = deleteCont("+localStorage.key(o)+")>Delete</button>");
-=======
         div.innerHTML = (
         "<ul><li>" + "<i>Имя:</i>" + " " + narry[0] + "</li>" + " " +
         "<li>" + "<i>E-mail:</i>" + " " + narry[2] + "</li>" + " " +
         "<li>" + "<i>Телефон:</i>" + " " + narry[1] + "</li>" +
         "<li><button id = 'delete' onclick = dell(" + arrKey + ")>Delele</button>" +
         "<button id ='edit' onclick =edit(" + arrKey + ")>Edit</button></li></ul>");
->>>>>>> 2790bdccb8bac6ea12f6a07e7b2ae9e2cac866be
 
     }
 
